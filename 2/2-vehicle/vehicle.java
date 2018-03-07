@@ -1,5 +1,17 @@
 class Vehicle{
 	int passengers;
-	int fuelcap;
-	int mpg;
+	int fuelCap;
+	float LtrPerHndrK;
+	
+	Vehicle(int pass, int fuel, float mpg)
+	{
+		this.passengers = pass;
+		this.fuelCap = fuel;
+		this.LtrPerHndrK = mpg;
+	}
+	
+	float range()
+	{
+		return ((float)fuelCap / LtrPerHndrK) * 100 ;
+	}
 }

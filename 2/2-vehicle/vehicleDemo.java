@@ -1,11 +1,8 @@
 class VehicleDemo {
 	public static void main (String args[])
 	{
-		Vehicle vhclDemo = new Vehicle();
-		vhclDemo.passengers = 5;
-		vhclDemo.fuelcap = 50;
-		vhclDemo.mpg = 10;
+		Vehicle vhclDemo = new Vehicle(5, 50, 10.0f);
 		
-		System.out.println("The car has defined with the spe: " + vhclDemo.passengers + "-" + vhclDemo.fuelcap + "-" + vhclDemo.mpg);
+		System.out.println("The demo car can't run more than " + vhclDemo.range() + "KiloMeters.");
 	}
 }
