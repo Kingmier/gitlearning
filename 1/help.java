@@ -5,10 +5,10 @@
 class Help {
 	public static void main (String arg[]) 
 		throws java.io.IOException {
+		System.out.println("Help on:\n\t1.if\n\t2.switch\n\t3.for\n\t4.while\n\t5.do-while\n\t0.quite");
+		System.out.print("Choose one:");
 		while(true)
 		{
-			System.out.println("Help on:\n\t1.if\n\t2.switch\n\t3.for\n\t4.while\n\t5.do-while\n\t0.quite");
-			System.out.print("Choose one:");
 			char chc;
 			do {
 				chc = (char)System.in.read();
