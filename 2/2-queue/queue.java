@@ -53,4 +53,10 @@ class Queue {
 		
 		return iRet;
 	}
+	void clear()
+	{
+		inPos = 0;
+                outPos = 0;
+                bIsFull = false;
+	}
 }
