@@ -6,5 +6,7 @@ class StrDemo{
 		Str oStr = new Str();
 
 		oStr.prtFShp();
+		System.out.println();
+		oStr.prtZShp();
 	}
 }
