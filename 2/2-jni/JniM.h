@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     JniM
  * Method:    sayRunPlace
- * Signature: ()Ljava/lang/String;
+ * Signature: ()V
  */
-JNIEXPORT jstring JNICALL Java_JniM_sayRunPlace
-  (JNIEnv *, jobject);
+JNIEXPORT void JNICALL Java_JniM_sayRunPlace
+  (JNIEnv *, jclass);
 
 #ifdef __cplusplus
 }

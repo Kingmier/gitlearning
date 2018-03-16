@@ -3,12 +3,14 @@
  */
  class JniDemo {
 	 static {
-		 System.loadLibrary("JniM");
+		 System.loadLibrary("JniTest");
 		 
 	 }
 	 
 	 public static void main(String[] args) {
 		 JniM oJniM = new JniM();
-		 JniM.syaRunPlace();
+		 oJniM.sayRunPlace();
+		 
+		 System.out.println("Run in C++ successful");
 	 }
  }
