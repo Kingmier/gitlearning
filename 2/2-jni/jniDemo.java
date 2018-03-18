@@ -1,6 +1,8 @@
 /*
  * Test class for Jni
  */
+ import java.io.File;
+ 
  class JniDemo {
 	 static {
 		 System.loadLibrary("JniTest");
