@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT void JNICALL Java_JniM_sayRunPlace
   (JNIEnv *, jobject);
 
+/*
+ * Class:     JniM
+ * Method:    getKeyCode
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_JniM_getKeyCode
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif
