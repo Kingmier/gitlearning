@@ -23,6 +23,14 @@ JNIEXPORT void JNICALL Java_JniM_sayRunPlace
 JNIEXPORT jstring JNICALL Java_JniM_getKeyCode
   (JNIEnv *, jobject);
 
+/*
+ * Class:     JniM
+ * Method:    showPanel
+ * Signature: ([[Ljava/lang/String;II)V
+ */
+JNIEXPORT void JNICALL Java_JniM_showPanel
+  (JNIEnv *, jobject, jobjectArray, jint, jint);
+
 #ifdef __cplusplus
 }
 #endif
