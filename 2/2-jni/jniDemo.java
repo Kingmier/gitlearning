@@ -3,7 +3,7 @@
  */
  class JniDemo {
 	 static {
-		 System.loadLibrary("JniTest");
+		 System.load("/home/binwangn/workspace/git/gitlearning/2/2-jni/JniTest.so");
 		 
 	 }
 	 
