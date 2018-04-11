@@ -3,7 +3,7 @@
  */
 class Bit{
 	public void showRsltInBitModel(int arg){
-		int iMsk = 0x8000;
+		int iMsk = 0x40000000;
 		int iVar = arg;
 		while (iMsk != 0x00){
 			if((iVar & iMsk) != 0){
