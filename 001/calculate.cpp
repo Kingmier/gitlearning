@@ -5,18 +5,9 @@
 #include<cmath>
 #include<stdio.h>
 
+#include"calc.h"
 using namespace std;
 
-class Scale
-{
-public:
-	Scale();
-	void output_bin(int n);
-	void output_hex(int n);
-
-private:
-	int a;
-};
 Scale::Scale()
 {
 	a = 0;
