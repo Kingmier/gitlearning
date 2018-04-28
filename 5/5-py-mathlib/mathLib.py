@@ -12,8 +12,8 @@ def main():
     print()
 
     dRoot = math.sqrt(bPar * bPar - 4 * aPar * cPar)
-    x1 = float((bPar * (-1) + dRoot) / (aPar * 2))
-    x2 = float((bPar * (-1) - dRoot) / (aPar * 2))
+    x1 = round((bPar * (-1) + dRoot) / (aPar * 2), 3)
+    x2 = round((bPar * (-1) - dRoot) / (aPar * 2), 3)
 
     print("The result is : ", x1, x2)
 
