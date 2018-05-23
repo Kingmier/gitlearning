@@ -1,5 +1,5 @@
 # click.py
-import HookManager
+# import HookManager
 from graphics import *
 
 def drawTriangle(win):
@@ -29,8 +29,8 @@ def drawText(win):
     if (p.getX() < 10 and p.getY() < 10):
         win.close()
     else:
-        #key = win.getKey()
-        key = "Here"
+        key = win.getKey()
+        #key = "Here"
         txt = Text(p, key)
         txt.draw(win)
 
